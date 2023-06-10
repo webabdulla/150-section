@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+}
+.content-section h3{
+    font-size:26px;
+    line-height: 33px;
+    font-weight:400px;
+    padding-bottom:10px;
+  }
+
+  .content-section p{
+    font-size:18px;
+    line-height: 23px;
+    font-weight:400px;
+  }
+.section-paddinig {
+    padding-top: 100px;
+}
+
+.section-title{
+    text-align:center;
+    padding-bottom:100px;
+}
+.section-title h3{
+  font-size:26px;
+  line-height: 33px;
+  font-weight:400px;
+}
+.section-title p{
+    font-size:18px;
+    line-height: 23px;
+    font-weight:400px;
+  }
+
+.feture-worp{
+    position:relative;
+}
+.content-section{
+    padding-bottom:100px;
+}
+
+
+
+.spider-man {
+    width:350px;height:auto;
+    position:absolute;bottom:0;
+    right:-30px;
+}

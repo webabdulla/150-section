@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- head -->
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="How to use responsive options">
+    <meta name="author" content="David Deutsch">
+    <title> listing carousel
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome 5 link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+ 
+    <!-- Stylesheets -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./assets/css/docs.theme.min.css">
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.theme.default.min.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="./assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Yeah i know js should not be in header. Its required for demos.-->
+
+    <!-- javascript -->
+    <script src="./assets/vendors/jquery.min.js"></script>
+    <script src="./assets/owlcarousel/owl.carousel.js"></script>
+  </head>
+  <body>
+    <div class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title">
+              <h4>Lorem, ipsum dolor.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Demos -->
+    <section id="demos">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="owl-carousel owl-theme">
+            <div class="item-bg1">
+              <div class="box-content">
+                <div class="box-image">
+                  <div class="listing-hover">
+                    <h3>Lore dolor sit.</h3>
+                    <p>listing 30</p>
+                    <a class="box-btn"href="#">Red more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-bg2">
+              <div class="box-content">
+                <div class="box-image">
+                  <div class="listing-hover">
+                    <h3>Lorem ipsum sit.</h3>
+                    <p>listing 30</p>
+                    <a class="box-btn"href="#">Red more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-bg3">
+              <div class="box-content">
+                <div class="box-image">
+                  <div class="listing-hover">
+                    <h3>Lorem ipsum </h3>
+                    <p>listing 30</p>
+                    <a class="box-btn"href="#">Red more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-bg4">
+              <div class="box-content">
+                <div class="box-image">
+                  <div class="listing-hover">
+                    <h3>ipsum dolor sit.</h3>
+                    <p>listing 30</p>
+                    <a class="box-btn"href="#">Red more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-bg5">
+              <div class="box-content">
+                <div class="box-image">
+                  <div class="listing-hover">
+                    <h3>ipsum dolor sit.</h3>
+                    <p>listing 30</p>
+                    <a class="box-btn"href="#">Red more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-bg5">
+              <div class="box-content">
+                <div class="box-image">
+                  <div class="listing-hover">
+                    <h3>Lorem dolor sit.</h3>
+                    <p>listing 30</p>
+                    <a class="box-btn"href="#">Red more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-bg6">
+              <div class="box-content">
+                <div class="box-image">
+                  <div class="listing-hover">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>listing 30</p>
+                    <a class="box-btn"href="#">Red more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+   
+          <script>
+            $(document).ready(function() {
+              $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                dots:true,
+                nav:true,
+                responsive: {
+                  0: {
+                    items: 1,
+                    nav: true
+                  },
+                  600: {
+                    items: 3,
+                    nav: false
+                  },
+                  1000: {
+                    items: 3,
+                    nav: true,
+                    loop: false,
+                    margin: 20
+                  }
+                }
+              })
+            })
+          </script>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- vendors -->
+    <script src="./assets/vendors/highlight.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

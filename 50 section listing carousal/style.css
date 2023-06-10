@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+
+.section-padding{
+    padding-top:50px;
+}
+.section-title{
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+.section-title h4{
+    padding:0;
+    margin:0;
+    font-size: 30px !important;
+    line-height: 31px;
+}
+.section-title p{
+    padding:0;
+    margin:0;
+    font-size: 20px !important;
+    line-height: 25px;
+}
+
+
+.item-bg1{
+    background-image:url(./img/pexels-elle-hughes-1680175.jpg);
+    background-size:cover;
+    background-position:center center;
+    height:400px !important;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.item-bg2{
+    background-image:url(./img/pexels-sebastiaan-stam-1482476.jpg);
+    background-size:cover;
+    background-position:center center;
+    height:400px !important;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.item-bg3{
+    background-image:url(./img/pexels-sebastian-voortman-715546.jpg);
+    background-size:cover;
+    background-position:center center;
+    height:400px !important;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.item-bg4{
+    background-image:url(./img/pexels-sebastiaan-stam-1482476.jpg);
+    background-size:cover;
+    background-position:center center;
+    height:400px !important;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.item-bg5{
+    background-image:url(./img/pexels-elle-hughes-1680175.jpg);
+    background-size:cover;
+    background-position:center center;
+    height:400px !important;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.item-bg6{
+    background-image:url(./img/pexels-sebastian-voortman-715546.jpg);
+    background-size:cover;
+    background-position:center center;
+    height:400px !important;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.item-bg7{
+    background-image:url(./img/pexels-elle-hughes-1680175.jpg);
+    background-size:cover;
+    background-position:center center;
+    height:400px !important;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.listing-hover{
+    position:absolute;
+    bottom:50px;
+    left:20px;
+}
+
+.listing-hover h3{
+   font-size:25px;
+   line-height:30px;
+   color:#fff;
+   padding-bottom: 10px;
+   margin: 0;
+}
+.listing-hover p{
+    font-size:18px;
+    line-height:23px;
+    color:#fff;
+    padding-bottom: 15px;
+    margin: 0;
+ }
+.box-btn{
+    border:1px solid #a9a7a7;
+    color:#fff;
+    border-radius: 100px;
+    padding:7px 20px;
+
+}

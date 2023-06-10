@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.section-padding{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.section-title h3{
+    font-size: 26px;
+    line-height: 32px;
+}
+.section-title p{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nopadding{
+    padding-top:50px;
+}
+
+.row.nopadding .col-md-4{
+    padding:0;
+    margin:0;
+}
+
+
+
+.single-box-item.bg-1{
+    background-image:url(./img/pexels-benjamin-suter-2225214.jpg)
+}
+
+.bg-2{background-image: url(./img/pexels-colin-lloyd-3751010.jpg);
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-3{background-image: url(./img/pexels-kindel-media-7714692.jpg);
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-4{background-image: url(./img/pexels-leon-macapagal-2346006.jpg);
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-5{background-image: url(./img/pexels-nothing-ahead-3199028.jpg);
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.single-box-item{
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.haf-size{
+    height:300px !important;
+}
+
+.single-box-item-hover{
+    position:relative;
+    z-index: 1;
+}
+
+.single-box-item-hover::after{
+    position:absolute;
+    content:"";
+    width:90%;
+    height:100%;
+    background-color:#000;
+    left:5%;
+    right:5%;top:0;
+}

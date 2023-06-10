@@ -1,0 +1,120 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+.section-bg1{
+    background-image: url(./img/pexels-ömer-aydın-3472690.jpg);
+
+
+}
+.section-padding{
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding:100px 0;
+}
+.price-box-image-worp img{
+    max-width:100%;
+}
+
+.box{
+    overflow: hidden;
+    box-shadow: 0 1px 15px 0 #fff !important;
+}
+
+.single-prise-box{
+    
+    width:33.333%;
+    float:left;
+    border-right: 1px solid #655a5a;
+}
+
+.single-prise-box:last-child{
+    border:none;
+}
+
+.price-box-image{
+    display: table;
+    width:100%;
+    height:140px;
+}
+
+.price-box-image img{
+    max-width:100%;
+    max-height:180px;
+}
+
+.price-box-image-worp{
+    display: table-cell;
+    vertical-align: middle;
+    width:100%;
+    text-align:center
+}
+.price-box-inner{
+    background-color: #fff;
+    padding:28px;
+}
+.price-box-inner h3{
+    color: #2d52f9;
+    font-size: 26px;
+    line-height:28px;
+    font-weight: 700;
+    text-align:center;
+    text-transform: uppercase;
+
+}
+.price-box-inner span {
+    text-align: center;
+    padding-left: 70px;
+}
+.price-box-content{
+    display: inline-block;
+    position:relative;
+    font-size: 40px;
+    line-height:48px;
+    font-weight: 700;
+    color:#ff0000;
+}
+.price-box-content span::before{
+   content: "$";
+   position:absolute;
+   font-size:20px;
+   top:-10px;
+   margin-left: -10px;
+}
+.price-box-content span::after{
+    content: "/mo";
+    font-size:20px;
+ }
+ 
+
+ .price-box-inner ul{
+    text-align: left !important;
+    list-style: none;
+} 
+
+
+.price-box-inner ul li{
+    font-size: 18px;
+    line-height:28px;
+    font-weight: 400;
+    color:#2d52f9;
+    
+}
+
+.price-box-inner a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height:28px;
+    font-weight: 400;
+    background-color: #2d52f9;
+    color:#fff;
+    padding:5px 20px;
+    border-radius: 1000px;
+    margin-left: 20px;
+    
+} 

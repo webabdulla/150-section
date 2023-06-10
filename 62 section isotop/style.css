@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.project-filter{
+    list-style: none;
+    text-align:center;
+    padding-top:50px;
+}
+.project-filter li{
+    display: inline-block;
+    padding-left:20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+
+
+.project-bg-1{
+    background-image: url(./img/pexels-sebastian-voortman-715546.jpg);
+}
+.project-bg-2{
+    background-image: url(./img/pexels-sebastian-voortman-715546.jpg);
+}
+.project-bg-3{
+    background-image: url(./img/pexels-sebastian-voortman-715546.jpg);
+}
+.project-bg-4{
+    background-image: url(./img/pexels-sebastian-voortman-715546.jpg);
+}
+.project-bg-5{
+    background-image: url(./img/pexels-sebastian-voortman-715546.jpg);
+}
+.project-bg-6{
+    background-image: url(./img/pexels-sebastian-voortman-715546.jpg);
+}
+
+
+
+.single-project-item {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 100%;
+    display: table;
+    position:relative;
+    z-index: 1;
+}
+.single-project-item::after{
+    position:absolute;
+    content:"";
+    left:0;
+    bottom:0;
+    width:80px;
+    height:80px;
+    border-left:1px solid #000;
+    z-index: 2;
+    border-bottom:1px solid #000;
+    opacity:0;
+    visibility: hidden;
+    transition: .3s;
+
+}
+.single-project-item:hover::before{
+    opacity:1;
+    visibility: visible;
+}
+.single-project-item:hover::after{
+    opacity:1;
+    visibility: visible;
+}
+
+.single-project-item::before{
+    position:absolute;
+    content:"";
+    right:0;
+    top:0;
+    width:80px;
+    height:80px;
+    border-right:1px solid #000;
+    z-index: 2;
+    border-top:1px solid #000;
+    opacity:0;
+    visibility: hidden;
+    transition: .3s;
+ }
+ .single-project-item:hover .project-hover{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+ }
+.project-hover{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding:30px;
+    position:relative;
+    z-index: 1;
+    transform: scale(.8);
+    opacity: 0;
+    visibility: hidden;
+}
+.project-hover::after{
+    position: absolute;
+    content:"";
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+    opacity: .5;
+}
+.project-hover h3{
+    font-size: 22px;
+    line-height: 30px;
+}
+.project-hover p{
+    font-size: 18px;
+    line-height: 25px;
+}

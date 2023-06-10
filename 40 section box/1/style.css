@@ -1,0 +1,31 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+.section-bg{
+   
+}
+
+
+.contract-form{
+    background:rgb(244, 7, 7);
+    padding-left:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+
+}
+
+.absolute-text {
+    color: #fff;
+  }
+  .col-md-5 input{
+      margin:10px;
+  }
+  .col-md-6 input {
+  
+    margin: 10px;
+  }
